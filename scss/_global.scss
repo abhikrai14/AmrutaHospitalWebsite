@@ -4,7 +4,8 @@ body {
   //     rgba(47, 23, 15, 0.65),
   //     rgba(47, 23, 15, 0.65)
   //   ),
-  background-image: url("../img/bg.jpg");
+  //background-image: url("../img/bg.jpg");
+  background-color: #ffffff;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -41,7 +42,7 @@ p {
   }
   .site-heading-lower {
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 800;
     line-height: 2rem;
   }
 }
@@ -61,10 +62,10 @@ p {
   .section-heading-lower {
     display: block;
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 500;
   }
 }
 
 .bg-faded {
-  background-color: fade-out($white, 0.15);
+  background-color: fade-out($pastelgreen, 0.15);
 }
