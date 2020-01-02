@@ -3,11 +3,92 @@
     .about-heading-img {
       position: relative;
       z-index: 0;
+      width: 30%;
     }
     .about-heading-content {
-      margin-top: -5rem;
-      position: relative;
-      z-index: 1;
+      //margin-top: -5rem;
+      width: 150%;
+      //position: relative;
+      //z-index: 1;
     }
   }
+}
+
+.about-quote{
+  float: right;
+  margin-top: 7rem;
+}
+
+.about-quote p{
+   max-width: 30em;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  text-transform: lowercase;
+ line-height: 170%;
+  font-size: 4em;
+  font-variant: small-caps;
+}
+
+#services {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px ($pastelgreen, 0.1);
+}
+
+ @media (min-width: 992px){
+#services .about-heading-img{
+   position: relative;
+      z-index: 0;
+      width: 30%;
+ }
+ }
+
+#services .box {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(202, 53, 53, 0.863);
+  transition: all 0.3s ease-in-out;
+}
+
+#services .box:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+#services .icon {
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 32px);
+}
+
+#services .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#services .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: #007bff;
+}
+
+#services .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
