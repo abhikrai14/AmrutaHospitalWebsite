@@ -65,7 +65,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 77, 0.85);
+  background-color: rgba(78, 211, 78, 0.85);
 }
 
 #mainNav {
@@ -195,8 +195,8 @@ p {
 
 #services {
   padding: 60px 0 40px 0;
-  -webkit-box-shadow: inset 0px 0px 12px 0px #ffff4d, 0.1;
-          box-shadow: inset 0px 0px 12px 0px #ffff4d, 0.1;
+  -webkit-box-shadow: inset 0px 0px 12px 0px #4ed34e, 0.1;
+          box-shadow: inset 0px 0px 12px 0px #4ed34e, 0.1;
 }
 
 @media (min-width: 992px) {
@@ -480,7 +480,7 @@ p {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #ffff4d;
+  color: #4ed34e;
 }
 
 #contact .contact-info address,
@@ -512,8 +512,8 @@ p {
 }
 
 #contact .form #sendmessage {
-  color: #ffff4d;
-  border: 1px solid #ffff4d;
+  color: #4ed34e;
+  border: 1px solid #4ed34e;
   display: none;
   text-align: center;
   padding: 15px;
@@ -549,7 +549,7 @@ p {
 #contact .form textarea {
   padding: 10px 14px;
   border-radius: 0;
-  border-color: #ffff4d;
+  border-color: #4ed34e;
   -webkit-box-shadow: none;
           box-shadow: none;
   font-size: 15px;
@@ -577,7 +577,7 @@ p {
 }
 
 #footer .footer-top {
-  background-color: rgba(255, 255, 77, 0.85);
+  background-color: rgba(78, 211, 78, 0.85);
   padding: 60px 0 30px 0;
 }
 
