@@ -654,11 +654,11 @@ p {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #000;
+  color: #fff;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #000;
 }
 
 #footer .footer-top .footer-contact {
