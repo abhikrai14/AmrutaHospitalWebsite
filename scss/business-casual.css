@@ -60,8 +60,19 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 601px) {
+  .section-heading-lower {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-heading-lower {
+    font-size: 30px;
+  }
 }
 
 .bg-faded {
@@ -633,6 +644,12 @@ p {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .footer-links {
+    text-align: center;
+  }
 }
 
 #footer .footer-top .footer-links {
