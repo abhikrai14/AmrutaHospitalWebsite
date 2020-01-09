@@ -76,7 +76,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(78, 211, 78, 0.85);
+  background-color: rgba(78, 211, 78, 0.8);
 }
 
 #mainNav {
@@ -126,6 +126,7 @@ p {
 
 .intro {
   position: relative;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -135,8 +136,8 @@ p {
   }
   .intro .intro-text {
     left: 0;
-    width: 60%;
-    margin-top: 3rem;
+    width: 50%;
+    margin-top: 0.5rem;
     position: absolute;
   }
   .intro .intro-text .intro-button {

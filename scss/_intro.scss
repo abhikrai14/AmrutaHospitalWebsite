@@ -1,5 +1,6 @@
 .intro {
   position: relative;
+  width: 100%;
   @media (min-width: 992px) {
     .intro-img {
       width: 50%;
@@ -7,8 +8,8 @@
     }
     .intro-text {
       left: 0;
-      width: 60%;
-      margin-top: 3rem;
+      width: 50%;
+      margin-top: 0.5rem;
       position: absolute;
       .intro-button {
         width: 100%;
